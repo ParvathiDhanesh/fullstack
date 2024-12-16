@@ -1,0 +1,9 @@
+body{background-image: url('https://www.bnf.fr/sites/default/files/2019-10/btv1b8457904c_f1.jpg');
+     background-repeat: no-repeat; 
+     background-size: cover;}
+   
+h1 {color: rgba(30, 3, 21, 0.971);
+         background-color: rgb(128, 63, 107); 
+         text-align: center; 
+         border: 4px solid rgb(203, 194, 200);}
+

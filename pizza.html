@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Pizza Shop</title>
+    <style>
+        table {
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body bgcolor="lightblue">
+    <form method="post">
+        <table>
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input type="radio" name="topping" value="Supreme" required> Supreme<br>
+                    <input type="radio" name="topping" value="Vegetarian"> Vegetarian<br>
+                    <input type="radio" name="topping" value="Hawaiian"> Hawaiian
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select name="sauce" required>
+                        <option value="Tomato">Tomato</option>
+                        <option value="chilli">chilli</option>
+                        <option value="soya">soya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox" name="extra" value="Extra Cheese"> Extra Cheese<br>
+                    <input type="checkbox" name="extra" value="Gluten Free Base"> Gluten Free Base
+                </td>
+            </tr>
+            <tr>
+                <td>Delivery Instructions:</td>
+                <td><textarea name="instructions" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Send my Order">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
